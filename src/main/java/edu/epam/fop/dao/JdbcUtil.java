@@ -10,7 +10,7 @@ import java.util.Properties;
  */
 public final class JdbcUtil {
 
-    private static final String PROPERTIES_FILE = "/db.properties";
+    private static final String PROPERTIES_FILE = "/application.properties";
     private static final Properties props = new Properties();
 
     static {

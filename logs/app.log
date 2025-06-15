@@ -383,3 +383,58 @@ Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bea
 2025-06-15 19:32:28 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 1662 ms
 2025-06-15 19:32:28 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
 2025-06-15 19:32:28 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 77 ms
+2025-06-15 19:33:36 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 19:33:38 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 19:33:38 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6710e1f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3136d001, org.springframework.security.web.context.SecurityContextPersistenceFilter@50abc739, org.springframework.security.web.header.HeaderWriterFilter@5ead37e7, org.springframework.security.web.authentication.logout.LogoutFilter@67fa69f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2271a1fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16eabf4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@112e5f36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@442eb7e4, org.springframework.security.web.session.SessionManagementFilter@2b0598ec, org.springframework.security.web.access.ExceptionTranslationFilter@23ff58a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@186e3254]
+2025-06-15 19:33:38 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 1746 ms
+2025-06-15 19:33:38 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 19:33:38 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 75 ms
+2025-06-15 19:36:37 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 19:36:37 WARN  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [edu.epam.fop.config.PersistenceConfig]; nested exception is java.io.FileNotFoundException: class path resource [application.properties] cannot be opened because it does not exist
+2025-06-15 19:36:37 ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [edu.epam.fop.config.PersistenceConfig]; nested exception is java.io.FileNotFoundException: class path resource [application.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:399) ~[spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:278) [spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.3.32.jar:5.3.32]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:1073) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:572) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.contextInitialized(ContextHandler.java:1002) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:765) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:328) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:397) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.restartWebApp(JettyRunMojo.java:468) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo$1.filesChanged(AbstractJettyMojo.java:472) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.Scanner.reportBulkChanges(Scanner.java:848) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:765) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:641) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.Scanner$1.run(Scanner.java:558) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:572) [?:?]
+	at java.base/java.util.TimerThread.run(Timer.java:522) [?:?]
+Caused by: java.io.FileNotFoundException: class path resource [application.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:159) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:110) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:81) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:67) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:67) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.core.io.support.DefaultPropertySourceFactory.createPropertySource(DefaultPropertySourceFactory.java:37) ~[spring-core-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:465) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:279) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.3.32.jar:5.3.32]
+	... 30 more

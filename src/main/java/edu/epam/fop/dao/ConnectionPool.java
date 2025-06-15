@@ -29,7 +29,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public final class ConnectionPool {
 
-    private static final String PROPERTIES_FILE = "/db.properties";
+    private static final String PROPERTIES_FILE = "/application.properties";
     private static final Properties props = new Properties();
 
     private static final BlockingQueue<Connection> idleConnections;

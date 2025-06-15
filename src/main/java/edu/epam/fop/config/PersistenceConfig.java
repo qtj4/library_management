@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @EnableTransactionManagement
-@PropertySource("classpath:db.properties")
+@PropertySource("classpath:application.properties")
 @ComponentScan(basePackages = "edu.epam.fop")
 public class PersistenceConfig {
 
