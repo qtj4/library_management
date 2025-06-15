@@ -25,6 +25,10 @@ public class OrderService {
         this.bookDao = bookDao;
     }
 
+    /**
+     * Creates a new {@link Order} for the given user and copy.
+     * Reserves the copy and persists order inside a manual JDBC transaction.
+     */
     public Order createOrder(User user, BookCopy copy, LendingType type) {
         copy.setStatus(Status.RESERVED);
         try {
@@ -41,6 +45,9 @@ public class OrderService {
         }
     }
 
+    /**
+     * Lists orders belonging to the specified user.
+     */
     public List<Order> findByUser(User user) {
         try {
             List<Order> list = orderDao.findAll().stream().filter(o->o.getUser()!=null && o.getUser().getId().equals(user.getId())).toList();
@@ -49,6 +56,9 @@ public class OrderService {
         } catch(Exception e){ throw new RuntimeException(e);}
     }
 
+    /**
+     * Returns orders with the given status.
+     */
     public List<Order> findByStatus(OrderStatus status) {
         try {
             List<Order> list = orderDao.findByStatus(status);
@@ -77,6 +87,9 @@ public class OrderService {
         }catch(Exception e){ throw new RuntimeException(e);}
     }
 
+    /**
+     * Issues (hands out) a previously pending order – marks copy ISSUED and order ISSUED.
+     */
     public void issueOrder(Long orderId) {
         try {
             JdbcTransactionManager.begin();
@@ -96,6 +109,9 @@ public class OrderService {
         }
     }
 
+    /**
+     * Marks copy AVAILABLE again and order RETURNED.
+     */
     public void returnOrder(Long orderId) {
         try {
             JdbcTransactionManager.begin();

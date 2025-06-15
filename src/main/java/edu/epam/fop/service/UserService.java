@@ -26,6 +26,14 @@ public class UserService {
     }
 
     @Transactional
+    /**
+     * Registers a brand-new user with default role USER.
+     *
+     * @param username desired unique username
+     * @param rawPassword plain-text password supplied by the client; will be hashed before persisting
+     * @return fully populated {@link User} entity including generated id and its single USER role
+     * @throws IllegalArgumentException if username already exists
+     */
     public User registerUser(String username, String rawPassword) {
         try {
             if (userDao.findByUsername(username)!=null) {
@@ -58,6 +66,14 @@ public class UserService {
     }
 
     @Transactional
+    /**
+     * Creates a new user with explicitly supplied role names (ADMIN/LIBRARIAN/etc.).
+     *
+     * @param username   unique login
+     * @param rawPassword plain-text password to hash
+     * @param roleNames  list of existing role names to link
+     * @return persisted {@link User} with roles eagerly attached
+     */
     public User create(String username, String rawPassword, List<String> roleNames) {
         try {
             if (userDao.findByUsername(username)!=null) {
@@ -81,6 +97,10 @@ public class UserService {
     }
 
     @Transactional
+    /**
+     * Toggles logical block flag for the given user.
+     * @param id user id
+     */
     public void toggleBlock(Long id){
         try {
             User u = userDao.findById(id);
@@ -92,6 +112,9 @@ public class UserService {
     }
 
     @Transactional
+    /**
+     * Permanently removes user from storage.
+     */
     public void delete(Long id){
         try {
             userDao.deleteById(id);
@@ -109,6 +132,11 @@ public class UserService {
         }
     }
 
+    /**
+     * Returns a page of users.
+     * @param page zero-based page index
+     * @param size page size
+     */
     public List<User> findPaged(int page,int size){
         try {
             return userDao.findPaged(page*size,size);

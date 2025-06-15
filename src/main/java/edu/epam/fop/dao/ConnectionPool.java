@@ -42,14 +42,16 @@ public final class ConnectionPool {
     static {
         try {
             props.load(ConnectionPool.class.getResourceAsStream(PROPERTIES_FILE));
+            // Resolve placeholders like ${ENV:default}
+            props.replaceAll((k, v) -> resolvePlaceholder(String.valueOf(v)));
             Class.forName(props.getProperty("jdbc.driverClassName"));
         } catch (IOException | ClassNotFoundException e) {
             throw new ExceptionInInitializerError("Failed to load DB properties or driver: " + e);
         }
 
-        int initial = Integer.parseInt(props.getProperty("pool.initialSize", "5"));
-        MAX_SIZE = Integer.parseInt(props.getProperty("pool.maxSize", "20"));
-        BORROW_TIMEOUT_MILLIS = Long.parseLong(props.getProperty("pool.borrowTimeoutMillis", "30000"));
+        int initial = Integer.parseInt(props.getProperty("pool.initialSize", "5").trim());
+        MAX_SIZE = Integer.parseInt(props.getProperty("pool.maxSize", "20").trim());
+        BORROW_TIMEOUT_MILLIS = Long.parseLong(props.getProperty("pool.borrowTimeoutMillis", "30000").trim());
 
         idleConnections = new LinkedBlockingQueue<>(MAX_SIZE);
 
@@ -190,5 +192,33 @@ public final class ConnectionPool {
         Connection c = TX_CONNECTION.get();
         TX_CONNECTION.remove();
         return c;
+    }
+
+    /**
+     * Resolves placeholders of the form <code>${ENV_VAR:default}</code> or <code>${ENV_VAR}</code>
+     * inside the provided value using {@link System#getenv(String)}.
+     */
+    private static String resolvePlaceholder(String value) {
+        if (value == null) return null;
+        if (!value.contains("${")) return value;
+
+        int start = value.indexOf("${");
+        int end = value.indexOf('}', start);
+        if (start < 0 || end < 0) return value;
+
+        String placeholder = value.substring(start + 2, end);
+        String envName;
+        String defaultVal = "";
+        int colonIdx = placeholder.indexOf(':');
+        if (colonIdx > -1) {
+            envName = placeholder.substring(0, colonIdx);
+            defaultVal = placeholder.substring(colonIdx + 1);
+        } else {
+            envName = placeholder;
+        }
+
+        String envVal = System.getenv(envName);
+        String resolved = envVal != null ? envVal : defaultVal;
+        return value.substring(0, start) + resolved + value.substring(end + 1);
     }
 } 
