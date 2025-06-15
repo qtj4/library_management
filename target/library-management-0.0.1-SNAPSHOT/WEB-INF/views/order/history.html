@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My Orders</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<h1>My Orders</h1>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Book</th>
+        <th>Inventory #</th>
+        <th>Status</th>
+        <th>Requested At</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="order : ${orders}">
+        <td th:text="${order.id}"></td>
+        <td th:text="${order.copy.book.title}"></td>
+        <td th:text="${order.copy.inventoryNumber}"></td>
+        <td th:text="${order.status}"></td>
+        <td th:text="${#temporals.format(order.createdAt, 'yyyy-MM-dd HH:mm')}"></td>
+        <td>
+            <form th:if="${order.status.name() == 'PENDING'}" th:action="@{/orders/{id}/cancel(id=${order.id})}" method="post">
+                <button type="submit">Cancel</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<p><a th:href="@{/books}">Back to catalogue</a></p>
+</body>
+</html> 

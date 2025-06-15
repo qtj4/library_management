@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User List</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<h1>Users</h1>
+<p><a th:href="@{/admin/users/new}">Create new user</a></p>
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr><th>ID</th><th>Username</th><th>Roles</th><th>Actions</th></tr>
+    </thead>
+    <tbody>
+    <tr th:each="u : ${users}">
+        <td th:text="${u.id}"></td>
+        <td th:text="${u.username}"></td>
+        <td th:text="${u.roles}"></td>
+        <td>
+            <form th:action="@{/admin/users/{id}/block(id=${u.id})}" method="post" style="display:inline">
+                <button type="submit" th:text="${u.blocked ? 'Unblock':'Block'}"></button>
+            </form>
+            <form th:action="@{/admin/users/{id}/delete(id=${u.id})}" method="post" style="display:inline">
+                <button type="submit">Delete</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p><a th:href="@{/}">Home</a></p>
+</body>
+</html> 

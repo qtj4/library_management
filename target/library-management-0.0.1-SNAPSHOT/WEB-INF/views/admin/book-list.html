@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Book List</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<h1>Books</h1>
+
+<!-- success flash attribute -->
+<div th:if="${success}" style="color: green;">
+    <p th:text="${success}"></p>
+</div>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Copies</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="book : ${books}">
+        <td th:text="${book.id}"></td>
+        <td th:text="${book.title}"></td>
+        <td th:text="${book.author}"></td>
+        <td th:text="${book.description}"></td>
+        <td><a th:href="@{/admin/books/{id}/copies(id=${book.id})}">Manage copies</a></td>
+    </tr>
+    </tbody>
+</table>
+
+<p>
+    <a th:href="@{/admin/books/new}">Add new book</a>
+</p>
+
+<p>
+    <a th:href="@{/}">Back to home</a>
+</p>
+</body>
+</html> 

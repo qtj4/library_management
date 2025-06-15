@@ -1,0 +1,310 @@
+2025-06-15 16:55:20 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 16:55:21 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 16:55:22 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15651402, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c194652, org.springframework.security.web.context.SecurityContextPersistenceFilter@b791e6e, org.springframework.security.web.header.HeaderWriterFilter@b75f3f4, org.springframework.security.web.authentication.logout.LogoutFilter@45964b9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b4c793b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72c175f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@510bd87a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f02b6d1, org.springframework.security.web.session.SessionManagementFilter@5570dc21, org.springframework.security.web.access.ExceptionTranslationFilter@2c86b0ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40fd1a78]
+2025-06-15 16:55:22 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1448 ms
+2025-06-15 16:56:34 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 16:56:35 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 16:56:35 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f455035, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@694c99dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c6c3220, org.springframework.security.web.header.HeaderWriterFilter@21a7cbbf, org.springframework.security.web.authentication.logout.LogoutFilter@74e25c66, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f2ad8c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@730928b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4088d541, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fbb88e7, org.springframework.security.web.session.SessionManagementFilter@1f62ab1, org.springframework.security.web.access.ExceptionTranslationFilter@25f50958, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fdf36d0]
+2025-06-15 16:56:35 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1134 ms
+2025-06-15 16:56:46 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 16:56:47 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 16:56:48 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13d0084f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50a4f383, org.springframework.security.web.context.SecurityContextPersistenceFilter@44452936, org.springframework.security.web.header.HeaderWriterFilter@3dede0b6, org.springframework.security.web.authentication.logout.LogoutFilter@a1dd494, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39b8cdee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d4bbb26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c581e61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5db72c5f, org.springframework.security.web.session.SessionManagementFilter@dd5922e, org.springframework.security.web.access.ExceptionTranslationFilter@21001851, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4771bd2]
+2025-06-15 16:56:48 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1101 ms
+2025-06-15 17:10:34 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 17:10:36 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 17:10:36 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a013b23, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f20dfd5, org.springframework.security.web.context.SecurityContextPersistenceFilter@30b97fcf, org.springframework.security.web.header.HeaderWriterFilter@5ca3acad, org.springframework.security.web.authentication.logout.LogoutFilter@421d7900, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1a45e29f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@583b4af4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31cddb11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15651402, org.springframework.security.web.session.SessionManagementFilter@691a5c3a, org.springframework.security.web.access.ExceptionTranslationFilter@4fe3f9ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44aa5585]
+2025-06-15 17:10:36 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1745 ms
+2025-06-15 17:26:33 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 17:26:34 WARN  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [C:\Users\LAPTOPE\IdeaProjects\library-managment2\target\classes\edu\epam\fop\security\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy80'
+2025-06-15 17:26:34 ERROR org.springframework.web.servlet.DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [C:\Users\LAPTOPE\IdeaProjects\library-managment2\target\classes\edu\epam\fop\security\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy80'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:220) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.32.jar:5.3.32]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:578) ~[spring-webmvc-5.3.32.jar:5.3.32]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.32.jar:5.3.32]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.32.jar:5.3.32]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder$Wrapper.init(ServletHolder.java:1345) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:750) ~[?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:315) [?:?]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:774) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:328) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:397) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:449) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:310) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.execute(JettyRunMojo.java:150) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206) [maven-embedder-3.9.10.jar:3.9.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314) [plexus-classworlds-2.9.0.jar:2.9.0]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy80'
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1401) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:907) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:784) ~[spring-beans-5.3.32.jar:5.3.32]
+	... 79 more
+2025-06-15 17:50:52 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 17:50:54 WARN  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+2025-06-15 17:50:54 ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:220) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:399) ~[spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:278) [spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.3.32.jar:5.3.32]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:1073) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:572) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.contextInitialized(ContextHandler.java:1002) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:765) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:328) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:397) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:449) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:310) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.execute(JettyRunMojo.java:150) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206) [maven-embedder-3.9.10.jar:3.9.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314) [plexus-classworlds-2.9.0.jar:2.9.0]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1401) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:907) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:784) ~[spring-beans-5.3.32.jar:5.3.32]
+	... 70 more
+2025-06-15 17:51:30 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 17:51:31 WARN  org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+2025-06-15 17:51:31 ERROR org.springframework.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:220) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591) ~[spring-context-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:399) ~[spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:278) [spring-web-5.3.32.jar:5.3.32]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103) [spring-web-5.3.32.jar:5.3.32]
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:1073) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:572) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.contextInitialized(ContextHandler.java:1002) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:765) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:328) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:916) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [jetty-servlet-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [jetty-webapp-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:397) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [jetty-server-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [jetty-util-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:449) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:310) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.execute(JettyRunMojo.java:150) [jetty-maven-plugin-9.4.53.v20231009.jar:9.4.53.v20231009]
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101) [maven-core-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283) [maven-embedder-3.9.10.jar:3.9.10]
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206) [maven-embedder-3.9.10.jar:3.9.10]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:255) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:201) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:361) [plexus-classworlds-2.9.0.jar:2.9.0]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:314) [plexus-classworlds-2.9.0.jar:2.9.0]
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'customUserDetailsService' is expected to be of type 'edu.epam.fop.service.CustomUserDetailsService' but was actually of type 'jdk.proxy4.$Proxy77'
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1401) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:907) ~[spring-beans-5.3.32.jar:5.3.32]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:784) ~[spring-beans-5.3.32.jar:5.3.32]
+	... 70 more
+2025-06-15 17:55:14 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 17:55:16 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 17:55:17 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ba815ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fbd47b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@29693b1d, org.springframework.security.web.header.HeaderWriterFilter@21f0cc97, org.springframework.security.web.authentication.logout.LogoutFilter@4df5f119, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6905d030, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54224125, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@167f9043, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ecd2aa4, org.springframework.security.web.session.SessionManagementFilter@3dbf3bc, org.springframework.security.web.access.ExceptionTranslationFilter@218e186b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5feb8e9a]
+2025-06-15 17:55:17 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3221 ms
+2025-06-15 17:55:17 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 17:55:17 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 92 ms
+2025-06-15 17:55:21 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /login
+2025-06-15 17:55:23 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /login
+2025-06-15 17:55:26 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /login
+2025-06-15 17:58:47 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 17:58:49 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 17:58:50 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27bc2650, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c40402c, org.springframework.security.web.context.SecurityContextPersistenceFilter@34f32575, org.springframework.security.web.header.HeaderWriterFilter@52667676, org.springframework.security.web.authentication.logout.LogoutFilter@6632eb19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b35b0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@229fe7ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50d91a0f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@198524ec, org.springframework.security.web.session.SessionManagementFilter@6802c10e, org.springframework.security.web.access.ExceptionTranslationFilter@3a83cfbc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49ea4b65]
+2025-06-15 17:58:50 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 2962 ms
+2025-06-15 17:58:50 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 17:58:50 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 76 ms
+2025-06-15 17:58:58 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /register
+2025-06-15 18:00:14 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 18:00:16 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 18:00:17 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4585880, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57256ad0, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f3fdc68, org.springframework.security.web.header.HeaderWriterFilter@169d41a3, org.springframework.security.web.authentication.logout.LogoutFilter@58be7dee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@782a56de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@316fdd73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23899300, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65771633, org.springframework.security.web.session.SessionManagementFilter@664d5341, org.springframework.security.web.access.ExceptionTranslationFilter@6d06444e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fb4c448]
+2025-06-15 18:00:17 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3382 ms
+2025-06-15 18:00:17 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 18:00:17 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 85 ms
+2025-06-15 18:02:11 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 18:02:13 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 18:02:14 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5837cb9e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74d3b331, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c4be9d8, org.springframework.security.web.header.HeaderWriterFilter@19b8f1bd, org.springframework.security.web.authentication.logout.LogoutFilter@65b69ccb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67d55a46, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@433db56d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b16e486, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13552290, org.springframework.security.web.session.SessionManagementFilter@121f9c52, org.springframework.security.web.access.ExceptionTranslationFilter@5315210d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@477d6f66]
+2025-06-15 18:02:14 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3290 ms
+2025-06-15 18:02:14 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 18:02:14 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 89 ms
+2025-06-15 18:02:23 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /
+2025-06-15 18:02:34 WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /register
+2025-06-15 18:03:58 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 18:04:00 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 18:04:01 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5b9cf26c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31213ef9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f8617f, org.springframework.security.web.header.HeaderWriterFilter@21ea18dc, org.springframework.security.web.authentication.logout.LogoutFilter@424f7059, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bcd9e82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b12dca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@487cc012, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69bef46e, org.springframework.security.web.session.SessionManagementFilter@3177e47c, org.springframework.security.web.access.ExceptionTranslationFilter@76e287c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74b245d]
+2025-06-15 18:04:01 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 2938 ms
+2025-06-15 18:04:01 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 18:04:01 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 142 ms
+2025-06-15 18:05:35 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+2025-06-15 18:05:37 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-15 18:05:38 INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6705fb02, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e2696e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@502b9399, org.springframework.security.web.header.HeaderWriterFilter@79f59e0e, org.springframework.security.web.authentication.logout.LogoutFilter@eea0b48, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@779136bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35d53cd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2559f65c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@345d641e, org.springframework.security.web.session.SessionManagementFilter@1e041848, org.springframework.security.web.access.ExceptionTranslationFilter@11896af6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10660795]
+2025-06-15 18:05:38 INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3356 ms
+2025-06-15 18:05:38 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2025-06-15 18:05:38 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 148 ms

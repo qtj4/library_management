@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Book Copies</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<h1 th:text="${book.title}">Book</h1>
+<h2>Copies</h2>
+
+<div th:if="${success}" style="color:green">
+    <p th:text="${success}"></p>
+</div>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Inventory #</th>
+        <th>Status</th>
+        <th>Borrower</th>
+        <th>Due</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="copy : ${copies}">
+        <td th:text="${copy.id}"></td>
+        <td th:text="${copy.inventoryNumber}"></td>
+        <td th:text="${copy.status}"></td>
+        <td th:text="${copy.status == T(edu.epam.fop.model.Status).ISSUED ? copy.orders[0]?.user?.username : ''}"></td>
+        <td th:text="${copy.status == T(edu.epam.fop.model.Status).ISSUED ? copy.orders[0]?.dueDate : ''}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<p><a th:href="@{/admin/books/{id}/copies/new(id=${book.id})}">Add copy</a></p>
+<p><a th:href="@{/admin/books}">Back to books</a></p>
+</body>
+</html> 
