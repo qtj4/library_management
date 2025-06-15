@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head('Librarian Dashboard')"></head>
+<div th:replace="fragments/header :: begin"></div>
+
+<h1 class="mb-4">Library</h1>
+<div class="list-group mb-4">
+    <a href="/books" class="list-group-item list-group-item-action">Browse Books</a>
+    <a href="/orders/history" class="list-group-item list-group-item-action">My Orders</a>
+</div>
+
+<h2 class="mt-4">Librarian Panel</h2>
+<div class="list-group mb-4">
+    <a href="/librarian/orders" class="list-group-item list-group-item-action">Pending Orders</a>
+    <a href="/librarian/copies" class="list-group-item list-group-item-action">Copies</a>
+    <a href="/librarian/readers" class="list-group-item list-group-item-action">Readers</a>
+</div>
+<a href="/dashboard" class="btn btn-outline-secondary me-2">Basic Dashboard</a>
+<a href="/logout" class="btn btn-outline-danger">Logout</a>
+
+<div th:replace="fragments/footer :: end"></div> 

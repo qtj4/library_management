@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="fragments/header :: head('Admin Dashboard')"></head>
+<div th:replace="fragments/header :: begin"></div>
+
+<h1 class="mb-4">Library</h1>
+<div class="list-group mb-4">
+    <a href="/books" class="list-group-item list-group-item-action">Browse Books</a>
+    <a href="/orders/history" class="list-group-item list-group-item-action">My Orders</a>
+</div>
+
+<h2 class="mt-4">Admin Panel</h2>
+<div class="list-group mb-4">
+    <a href="/admin/users" class="list-group-item list-group-item-action">Manage Users</a>
+    <a href="/admin/books" class="list-group-item list-group-item-action">Manage Books</a>
+    <a href="/admin/books" class="list-group-item list-group-item-action">Manage Copies</a>
+    <a href="/admin/reports" class="list-group-item list-group-item-action">Reports</a>
+</div>
+<a href="/dashboard" class="btn btn-outline-secondary me-2">Basic Dashboard</a>
+<a href="/logout" class="btn btn-outline-danger">Logout</a>
+
+<div th:replace="fragments/footer :: end"></div> 

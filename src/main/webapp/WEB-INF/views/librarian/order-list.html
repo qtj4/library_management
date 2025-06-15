@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pending Orders</title>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<h1>Pending Orders</h1>
+
+<div th:if="${success}" style="color:green">
+    <p th:text="${success}"></p>
+</div>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>User</th>
+        <th>Book</th>
+        <th>Inventory #</th>
+        <th>Requested At</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="order : ${orders}">
+        <td th:text="${order.id}"></td>
+        <td th:text="${order.user.username}"></td>
+        <td th:text="${order.copy.book.title}"></td>
+        <td th:text="${order.copy.inventoryNumber}"></td>
+        <td th:text="${#temporals.format(order.createdAt,'yyyy-MM-dd HH:mm')}"></td>
+        <td>
+            <form th:action="@{/librarian/orders/{id}/confirm(id=${order.id})}" method="post" style="display:inline">
+                <a th:href="@{/librarian/orders/{id}/confirm(id=${order.id})}">Confirm</a>
+            </form>
+            <form th:action="@{/librarian/orders/{id}/return(id=${order.id})}" method="post" style="display:inline">
+                <button type="submit">Return</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<p><a th:href="@{/}">Home</a></p>
+</body>
+</html> 
