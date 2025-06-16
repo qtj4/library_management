@@ -38,7 +38,7 @@ The schema is created automatically by the first run (plain `CREATE TABLE` scrip
 ## Build & Run
 ```bash
 # package the WAR and run Jetty from Maven
-git clone https://github.com/your-name/library-management.git
+git clone https://github.com/qtj4/library_management.git
 cd library-management
 mvn clean package jetty:run
 ```
@@ -59,38 +59,10 @@ Environment variables `DB_USERNAME` / `DB_PASSWORD` override the default Postgre
 jdbc.driverClassName=org.postgresql.Driver
 jdbc.url=jdbc:postgresql://localhost:5432/library-managment
 jdbc.username=${DB_USERNAME:postgres}
-jdbc.password=${DB_PASSWORD:1111}
+jdbc.password=${DB_PASSWORD:****}
 
 # connection-pool
 pool.initialSize=5
 pool.maxSize=20
 pool.borrowTimeoutMillis=30000
 ```
-
-For tests we use an in-memory H2 (see `src/test/resources/application.properties`).
-
----
-## Tests & Coverage
-```bash
-mvn spotless:apply   # format
-mvn test             # unit + integration tests (requires Docker for Testcontainers)
-# coverage report:
-open target/site/jacoco/index.html
-```
-CI fails if Spotless or JaCoCo (<50 %) thresholds are violated.
-
----
-## Notable Features
-* Custom `ConnectionPool` with blocking take/offer and transaction-aware close.
-* Manual transaction API (`JdbcTransactionManager`) and AOP logging around DAO calls.
-* Role-based dashboards (`/dashboard-*`) with collapsible Bootstrap panels.
-* EN / RU toggle via request `lang` param, backed by message bundles.
-* Spotless & google-java-format ensure unified code style.
-
----
-## Contributing
-1. Fork ➜ create feature branch ➜ commit (+ tests & Javadoc) ➜ pull-request.  
-2. Pre-commit hook: `mvn spotless:apply`.
-
----
-© 2025 Library-Management Team. Licensed under MIT.
